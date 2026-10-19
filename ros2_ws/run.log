@@ -1,0 +1,275 @@
+[INFO] [launch]: All log files can be found below /home/thamz/.ros/log/2026-07-23-12-15-45-604156-TEK-10076
+[INFO] [launch]: Default logging verbosity is set to INFO
+WARNING:root:[33;21mCannot infer URDF from `/opt/ros/jazzy/share/ur_moveit_config`. -- using config/ur5e.urdf[0m
+WARNING:root:[33;21mCannot infer SRDF from `/opt/ros/jazzy/share/ur_moveit_config`. -- using config/ur5e.srdf[0m
+[INFO] [moveit_demo-1]: process started with pid [10079]
+[moveit_demo-1] [0m[INFO] [1784805346.590874630] [moveit_82750580.moveit.py.cpp_initializer]: Initialize rclcpp[0m
+[moveit_demo-1] [0m[INFO] [1784805346.590989495] [moveit_82750580.moveit.py.cpp_initializer]: Initialize node parameters[0m
+[moveit_demo-1] [0m[INFO] [1784805346.591019599] [moveit_82750580.moveit.py.cpp_initializer]: Initialize node and executor[0m
+[moveit_demo-1] [0m[INFO] [1784805346.602514012] [moveit_82750580.moveit.py.cpp_initializer]: Spin separate thread[0m
+[moveit_demo-1] [0m[INFO] [1784805346.604670762] [moveit_82750580.moveit.ros.rdf_loader]: Loaded robot model in 0.00190352 seconds[0m
+[moveit_demo-1] [0m[INFO] [1784805346.604760988] [moveit_82750580.moveit.core.robot_model]: Loading robot model 'ur5e'...[0m
+[moveit_demo-1] [0m[INFO] [1784805346.604793663] [moveit_82750580.moveit.core.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint[0m
+[moveit_demo-1] [0m[INFO] [1784805346.617119551] [moveit_82750580.moveit.kinematics.kdl_kinematics_plugin]: Joint weights for group 'ur_manipulator': 1 1 1 1 1 1[0m
+[moveit_demo-1] [0m[INFO] [1784805346.673619443] [moveit_82750580.moveit.ros.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'[0m
+[moveit_demo-1] [0m[INFO] [1784805346.674136710] [moveit_82750580.moveit.ros.moveit_cpp]: Listening to 'joint_states' for joint states[0m
+[moveit_demo-1] [0m[INFO] [1784805346.676413900] [moveit_82750580.moveit.ros.current_state_monitor]: Listening to joint states on topic 'joint_states'[0m
+[moveit_demo-1] [0m[INFO] [1784805346.677434190] [moveit_82750580.moveit.ros.planning_scene_monitor]: Listening to '/attached_collision_object' for attached collision objects[0m
+[moveit_demo-1] [0m[INFO] [1784805346.677515231] [moveit_82750580.moveit.ros.planning_scene_monitor]: Stopping existing planning scene publisher.[0m
+[moveit_demo-1] [0m[INFO] [1784805346.677739429] [moveit_82750580.moveit.ros.planning_scene_monitor]: Stopped publishing maintained planning scene.[0m
+[moveit_demo-1] [0m[INFO] [1784805346.678621323] [moveit_82750580.moveit.ros.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'[0m
+[moveit_demo-1] [0m[INFO] [1784805346.678819705] [moveit_82750580.moveit.ros.planning_scene_monitor]: Starting planning scene monitor[0m
+[moveit_demo-1] [0m[INFO] [1784805346.679592379] [moveit_82750580.moveit.ros.planning_scene_monitor]: Listening to '/planning_scene'[0m
+[moveit_demo-1] [0m[INFO] [1784805346.679654287] [moveit_82750580.moveit.ros.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.[0m
+[moveit_demo-1] [0m[INFO] [1784805346.682327948] [moveit_82750580.moveit.ros.planning_scene_monitor]: Listening to 'collision_object'[0m
+[moveit_demo-1] [0m[INFO] [1784805346.682941020] [moveit_82750580.moveit.ros.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry[0m
+[moveit_demo-1] [33m[WARN] [1784805346.683143159] [moveit_82750580.moveit.ros.occupancy_map_monitor]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead[0m
+[moveit_demo-1] [31m[ERROR] [1784805346.683183381] [moveit_82750580.moveit.ros.occupancy_map_monitor]: No 3D sensor plugin(s) defined for octomap updates[0m
+[moveit_demo-1] [0m[INFO] [1784805347.912923605] [moveit_82750580.moveit.ros.planning_pipeline]: Successfully loaded planner 'OMPL'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.913738677] [moveit_demo]: Try loading adapter 'default_planning_request_adapters/ResolveConstraintFrames'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.914639283] [moveit_demo]: Loaded adapter 'default_planning_request_adapters/ResolveConstraintFrames'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.914709287] [moveit_demo]: Try loading adapter 'default_planning_request_adapters/ValidateWorkspaceBounds'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.920541179] [moveit_demo]: Loaded adapter 'default_planning_request_adapters/ValidateWorkspaceBounds'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.920626534] [moveit_demo]: Try loading adapter 'default_planning_request_adapters/CheckStartStateBounds'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.920683290] [moveit_demo]: Loaded adapter 'default_planning_request_adapters/CheckStartStateBounds'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.920690448] [moveit_demo]: Try loading adapter 'default_planning_request_adapters/CheckStartStateCollision'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.920704970] [moveit_demo]: Loaded adapter 'default_planning_request_adapters/CheckStartStateCollision'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.921553822] [moveit_demo]: Try loading adapter 'default_planning_response_adapters/AddTimeOptimalParameterization'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.927202919] [moveit_demo]: Loaded adapter 'default_planning_response_adapters/AddTimeOptimalParameterization'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.927388276] [moveit_demo]: Try loading adapter 'default_planning_response_adapters/ValidateSolution'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.931435454] [moveit_demo]: Loaded adapter 'default_planning_response_adapters/ValidateSolution'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.931554703] [moveit_demo]: Try loading adapter 'default_planning_response_adapters/DisplayMotionPath'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.932914387] [moveit_demo]: Loaded adapter 'default_planning_response_adapters/DisplayMotionPath'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.940204673] [moveit_82750580.moveit.planners.pilz.joint_limits_aggregator]: Reading limits from namespace robot_description_planning[0m
+[moveit_demo-1] [0m[INFO] [1784805347.948325430] [moveit_82750580.moveit.planners.pilz.command_planner]: Available plugins: pilz_industrial_motion_planner/PlanningContextLoaderCIRC pilz_industrial_motion_planner/PlanningContextLoaderLIN pilz_industrial_motion_planner/PlanningContextLoaderPTP [0m
+[moveit_demo-1] [0m[INFO] [1784805347.948414931] [moveit_82750580.moveit.planners.pilz.command_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderCIRC[0m
+[moveit_demo-1] [0m[INFO] [1784805347.949837947] [moveit_82750580.moveit.planners.pilz.command_planner]: Registered Algorithm [CIRC][0m
+[moveit_demo-1] [0m[INFO] [1784805347.949885656] [moveit_82750580.moveit.planners.pilz.command_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderLIN[0m
+[moveit_demo-1] [0m[INFO] [1784805347.950938355] [moveit_82750580.moveit.planners.pilz.command_planner]: Registered Algorithm [LIN][0m
+[moveit_demo-1] [0m[INFO] [1784805347.950993790] [moveit_82750580.moveit.planners.pilz.command_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderPTP[0m
+[moveit_demo-1] [0m[INFO] [1784805347.953865610] [moveit_82750580.moveit.planners.pilz.command_planner]: Registered Algorithm [PTP][0m
+[moveit_demo-1] [0m[INFO] [1784805347.953947504] [moveit_82750580.moveit.ros.planning_pipeline]: Successfully loaded planner 'Pilz Industrial Motion Planner'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.954783653] [moveit_demo]: Try loading adapter 'default_planning_request_adapters/ResolveConstraintFrames'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.954908059] [moveit_demo]: Loaded adapter 'default_planning_request_adapters/ResolveConstraintFrames'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.954918547] [moveit_demo]: Try loading adapter 'default_planning_request_adapters/ValidateWorkspaceBounds'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.955372553] [moveit_demo]: Loaded adapter 'default_planning_request_adapters/ValidateWorkspaceBounds'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.955396572] [moveit_demo]: Try loading adapter 'default_planning_request_adapters/CheckStartStateBounds'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.955465518] [moveit_demo]: Loaded adapter 'default_planning_request_adapters/CheckStartStateBounds'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.955488860] [moveit_demo]: Try loading adapter 'default_planning_request_adapters/CheckStartStateCollision'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.955505744] [moveit_demo]: Loaded adapter 'default_planning_request_adapters/CheckStartStateCollision'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.956335464] [moveit_demo]: Try loading adapter 'default_planning_response_adapters/ValidateSolution'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.960713451] [moveit_demo]: Loaded adapter 'default_planning_response_adapters/ValidateSolution'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.960781363] [moveit_demo]: Try loading adapter 'default_planning_response_adapters/DisplayMotionPath'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.961507763] [moveit_demo]: Loaded adapter 'default_planning_response_adapters/DisplayMotionPath'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.965748292] [moveit_82750580.moveit.ros.planning_pipeline]: Successfully loaded planner 'CHOMP'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.969879671] [moveit_demo]: Try loading adapter 'default_planning_request_adapters/ResolveConstraintFrames'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.970068146] [moveit_demo]: Loaded adapter 'default_planning_request_adapters/ResolveConstraintFrames'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.970077132] [moveit_demo]: Try loading adapter 'default_planning_request_adapters/ValidateWorkspaceBounds'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.971204607] [moveit_demo]: Loaded adapter 'default_planning_request_adapters/ValidateWorkspaceBounds'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.971394244] [moveit_demo]: Try loading adapter 'default_planning_request_adapters/CheckStartStateBounds'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.971512680] [moveit_demo]: Loaded adapter 'default_planning_request_adapters/CheckStartStateBounds'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.971527125] [moveit_demo]: Try loading adapter 'default_planning_request_adapters/CheckStartStateCollision'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.971552455] [moveit_demo]: Loaded adapter 'default_planning_request_adapters/CheckStartStateCollision'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.972676046] [moveit_demo]: Try loading adapter 'default_planning_response_adapters/AddTimeOptimalParameterization'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.975995141] [moveit_demo]: Loaded adapter 'default_planning_response_adapters/AddTimeOptimalParameterization'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.976089254] [moveit_demo]: Try loading adapter 'default_planning_response_adapters/ValidateSolution'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.977379465] [moveit_demo]: Loaded adapter 'default_planning_response_adapters/ValidateSolution'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.977590421] [moveit_demo]: Try loading adapter 'default_planning_response_adapters/DisplayMotionPath'[0m
+[moveit_demo-1] [0m[INFO] [1784805347.978770355] [moveit_demo]: Loaded adapter 'default_planning_response_adapters/DisplayMotionPath'[0m
+[moveit_demo-1] [0m[INFO] [1784805348.109812613] [moveit_82750580.moveit.plugins.simple_controller_manager]: Added FollowJointTrajectory controller for scaled_joint_trajectory_controller[0m
+[moveit_demo-1] [0m[INFO] [1784805348.118159132] [moveit_82750580.moveit.plugins.simple_controller_manager]: Added FollowJointTrajectory controller for joint_trajectory_controller[0m
+[moveit_demo-1] [0m[INFO] [1784805348.119330342] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805348.119445535] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805348.121097991] [moveit_82750580.moveit.ros.trajectory_execution_manager]: Trajectory execution is managing controllers[0m
+[moveit_demo-1] [33m[WARN] [1784805348.271081746] [moveit_demo]: Parameter 'ur_manipulator.plan_request_params.planner_id' not found in config use default value instead, check parameter type and namespace in YAML file[0m
+[moveit_demo-1] [33m[WARN] [1784805348.271183485] [moveit_demo]: Parameter 'ur_manipulator.plan_request_params.planning_pipeline' not found in config use default value instead, check parameter type and namespace in YAML file[0m
+[moveit_demo-1] [33m[WARN] [1784805348.271208705] [moveit_demo]: Parameter 'ur_manipulator.plan_request_params.planning_time' not found in config use default value instead, check parameter type and namespace in YAML file[0m
+[moveit_demo-1] [33m[WARN] [1784805348.271270409] [moveit_demo]: Parameter 'ur_manipulator.plan_request_params.planning_attempts' not found in config use default value instead, check parameter type and namespace in YAML file[0m
+[moveit_demo-1] [33m[WARN] [1784805348.271312985] [moveit_demo]: Parameter 'ur_manipulator.plan_request_params.max_velocity_scaling_factor' not found in config use default value instead, check parameter type and namespace in YAML file[0m
+[moveit_demo-1] [33m[WARN] [1784805348.271387006] [moveit_demo]: Parameter 'ur_manipulator.plan_request_params.max_acceleration_scaling_factor' not found in config use default value instead, check parameter type and namespace in YAML file[0m
+[moveit_demo-1] [0m[INFO] [1784805348.271620616] [moveit_demo]: Calling PlanningRequestAdapter 'ResolveConstraintFrames'[0m
+[moveit_demo-1] [0m[INFO] [1784805348.271749497] [moveit_demo]: Calling PlanningRequestAdapter 'ValidateWorkspaceBounds'[0m
+[moveit_demo-1] [33m[WARN] [1784805348.271783188] [moveit_82750580.moveit.ros.validate_workspace_bounds]: It looks like the planning volume was not specified. Using default values.[0m
+[moveit_demo-1] [0m[INFO] [1784805348.271812848] [moveit_demo]: Calling PlanningRequestAdapter 'CheckStartStateBounds'[0m
+[moveit_demo-1] [0m[INFO] [1784805348.271865274] [moveit_demo]: Calling PlanningRequestAdapter 'CheckStartStateCollision'[0m
+[moveit_demo-1] [0m[INFO] [1784805348.272485204] [moveit_82750580.moveit.planners.ompl.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.[0m
+[moveit_demo-1] [0m[INFO] [1784805348.272650761] [moveit_demo]: Calling Planner 'OMPL'[0m
+[moveit_demo-1] [0m[INFO] [1784805348.280042765] [moveit_demo]: Calling PlanningResponseAdapter 'AddTimeOptimalParameterization'[0m
+[moveit_demo-1] [0m[INFO] [1784805348.281087843] [moveit_demo]: Calling PlanningResponseAdapter 'ValidateSolution'[0m
+[moveit_demo-1] [0m[INFO] [1784805348.281473078] [moveit_demo]: Calling PlanningResponseAdapter 'DisplayMotionPath'[0m
+[moveit_demo-1] [33m[WARN] [1784805348.281680870] [moveit_82750580.moveit.ros.planning_pipeline]: The planner plugin did not fill out the 'planner_id' field of the MotionPlanResponse. Setting it to the planner ID name of the MotionPlanRequest assuming that the planner plugin does warn you if it does not use the requested planner.[0m
+[moveit_demo-1] [0m[INFO] [1784805348.281804858] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805348.281851018] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805348.281913618] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805348.281955584] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805348.282015126] [moveit_82750580.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01[0m
+[moveit_demo-1] [0m[INFO] [1784805348.283741248] [moveit_82750580.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...[0m
+[moveit_demo-1] [0m[INFO] [1784805348.283942283] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805348.284109536] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805348.284447805] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to scaled_joint_trajectory_controller[0m
+[moveit_demo-1] [0m[INFO] [1784805348.286306747] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: scaled_joint_trajectory_controller started execution[0m
+[moveit_demo-1] [0m[INFO] [1784805348.301724640] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted![0m
+[moveit_demo-1] [0m[INFO] [1784805351.466231817] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'scaled_joint_trajectory_controller' successfully finished[0m
+[moveit_demo-1] [0m[INFO] [1784805351.473227891] [moveit_82750580.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...[0m
+[moveit_demo-1] [0m[INFO] [1784805351.495036130] [moveit_demo]: Motion executed successfully.[0m
+[moveit_demo-1] [0m[INFO] [1784805351.518669544] [moveit_demo]: Added collision object 'reconstructed_object' at (0.6, 0.0, 0.15), size (0.05, 0.03, 0.01)[0m
+[moveit_demo-1] [33m[WARN] [1784805351.519723826] [moveit_demo]: Parameter 'ur_manipulator.plan_request_params.planner_id' not found in config use default value instead, check parameter type and namespace in YAML file[0m
+[moveit_demo-1] [33m[WARN] [1784805351.519822287] [moveit_demo]: Parameter 'ur_manipulator.plan_request_params.planning_pipeline' not found in config use default value instead, check parameter type and namespace in YAML file[0m
+[moveit_demo-1] [33m[WARN] [1784805351.519889203] [moveit_demo]: Parameter 'ur_manipulator.plan_request_params.planning_time' not found in config use default value instead, check parameter type and namespace in YAML file[0m
+[moveit_demo-1] [33m[WARN] [1784805351.519930007] [moveit_demo]: Parameter 'ur_manipulator.plan_request_params.planning_attempts' not found in config use default value instead, check parameter type and namespace in YAML file[0m
+[moveit_demo-1] [33m[WARN] [1784805351.519944640] [moveit_demo]: Parameter 'ur_manipulator.plan_request_params.max_velocity_scaling_factor' not found in config use default value instead, check parameter type and namespace in YAML file[0m
+[moveit_demo-1] [33m[WARN] [1784805351.519956205] [moveit_demo]: Parameter 'ur_manipulator.plan_request_params.max_acceleration_scaling_factor' not found in config use default value instead, check parameter type and namespace in YAML file[0m
+[moveit_demo-1] [0m[INFO] [1784805351.520347040] [moveit_demo]: Calling PlanningRequestAdapter 'ResolveConstraintFrames'[0m
+[moveit_demo-1] [0m[INFO] [1784805351.520555697] [moveit_demo]: Calling PlanningRequestAdapter 'ValidateWorkspaceBounds'[0m
+[moveit_demo-1] [33m[WARN] [1784805351.520575627] [moveit_82750580.moveit.ros.validate_workspace_bounds]: It looks like the planning volume was not specified. Using default values.[0m
+[moveit_demo-1] [0m[INFO] [1784805351.520613451] [moveit_demo]: Calling PlanningRequestAdapter 'CheckStartStateBounds'[0m
+[moveit_demo-1] [0m[INFO] [1784805351.520644926] [moveit_demo]: Calling PlanningRequestAdapter 'CheckStartStateCollision'[0m
+[moveit_demo-1] [0m[INFO] [1784805351.521691555] [moveit_82750580.moveit.planners.ompl.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.[0m
+[moveit_demo-1] [0m[INFO] [1784805351.521844131] [moveit_demo]: Calling Planner 'OMPL'[0m
+[moveit_demo-1] [0m[INFO] [1784805351.559593108] [moveit_demo]: Calling PlanningResponseAdapter 'AddTimeOptimalParameterization'[0m
+[moveit_demo-1] [0m[INFO] [1784805351.565918822] [moveit_demo]: Calling PlanningResponseAdapter 'ValidateSolution'[0m
+[moveit_demo-1] [0m[INFO] [1784805351.568272416] [moveit_demo]: Calling PlanningResponseAdapter 'DisplayMotionPath'[0m
+[moveit_demo-1] [33m[WARN] [1784805351.568605923] [moveit_82750580.moveit.ros.planning_pipeline]: The planner plugin did not fill out the 'planner_id' field of the MotionPlanResponse. Setting it to the planner ID name of the MotionPlanRequest assuming that the planner plugin does warn you if it does not use the requested planner.[0m
+[moveit_demo-1] [0m[INFO] [1784805351.568858663] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805351.568968498] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805351.569064589] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805351.569096269] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805351.569159697] [moveit_82750580.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01[0m
+[moveit_demo-1] [0m[INFO] [1784805351.578060124] [moveit_82750580.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...[0m
+[moveit_demo-1] [0m[INFO] [1784805351.578207764] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805351.578307413] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805351.578776702] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to scaled_joint_trajectory_controller[0m
+[moveit_demo-1] [0m[INFO] [1784805351.580273182] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: scaled_joint_trajectory_controller started execution[0m
+[moveit_demo-1] [0m[INFO] [1784805351.580318122] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted![0m
+[moveit_demo-1] [0m[INFO] [1784805357.532419742] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'scaled_joint_trajectory_controller' successfully finished[0m
+[moveit_demo-1] [0m[INFO] [1784805357.538871914] [moveit_82750580.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...[0m
+[moveit_demo-1] [0m[INFO] [1784805357.540876337] [moveit_demo]: Motion executed successfully.[0m
+[moveit_demo-1] [33m[WARN] [1784805357.542922512] [moveit_demo]: Parameter 'ur_manipulator.plan_request_params.planner_id' not found in config use default value instead, check parameter type and namespace in YAML file[0m
+[moveit_demo-1] [33m[WARN] [1784805357.543035943] [moveit_demo]: Parameter 'ur_manipulator.plan_request_params.planning_pipeline' not found in config use default value instead, check parameter type and namespace in YAML file[0m
+[moveit_demo-1] [33m[WARN] [1784805357.543043214] [moveit_demo]: Parameter 'ur_manipulator.plan_request_params.planning_time' not found in config use default value instead, check parameter type and namespace in YAML file[0m
+[moveit_demo-1] [33m[WARN] [1784805357.543049446] [moveit_demo]: Parameter 'ur_manipulator.plan_request_params.planning_attempts' not found in config use default value instead, check parameter type and namespace in YAML file[0m
+[moveit_demo-1] [33m[WARN] [1784805357.543055329] [moveit_demo]: Parameter 'ur_manipulator.plan_request_params.max_velocity_scaling_factor' not found in config use default value instead, check parameter type and namespace in YAML file[0m
+[moveit_demo-1] [33m[WARN] [1784805357.543061567] [moveit_demo]: Parameter 'ur_manipulator.plan_request_params.max_acceleration_scaling_factor' not found in config use default value instead, check parameter type and namespace in YAML file[0m
+[moveit_demo-1] [0m[INFO] [1784805357.543314737] [moveit_demo]: Calling PlanningRequestAdapter 'ResolveConstraintFrames'[0m
+[moveit_demo-1] [0m[INFO] [1784805357.543387102] [moveit_demo]: Calling PlanningRequestAdapter 'ValidateWorkspaceBounds'[0m
+[moveit_demo-1] [33m[WARN] [1784805357.543393156] [moveit_82750580.moveit.ros.validate_workspace_bounds]: It looks like the planning volume was not specified. Using default values.[0m
+[moveit_demo-1] [0m[INFO] [1784805357.543408380] [moveit_demo]: Calling PlanningRequestAdapter 'CheckStartStateBounds'[0m
+[moveit_demo-1] [0m[INFO] [1784805357.543424209] [moveit_demo]: Calling PlanningRequestAdapter 'CheckStartStateCollision'[0m
+[moveit_demo-1] [0m[INFO] [1784805357.544325826] [moveit_82750580.moveit.planners.ompl.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.[0m
+[moveit_demo-1] [0m[INFO] [1784805357.544420824] [moveit_demo]: Calling Planner 'OMPL'[0m
+[moveit_demo-1] [0m[INFO] [1784805357.568277052] [moveit_demo]: Calling PlanningResponseAdapter 'AddTimeOptimalParameterization'[0m
+[moveit_demo-1] [0m[INFO] [1784805357.569276919] [moveit_demo]: Calling PlanningResponseAdapter 'ValidateSolution'[0m
+[moveit_demo-1] [0m[INFO] [1784805357.569634052] [moveit_demo]: Calling PlanningResponseAdapter 'DisplayMotionPath'[0m
+[moveit_demo-1] [33m[WARN] [1784805357.569891737] [moveit_82750580.moveit.ros.planning_pipeline]: The planner plugin did not fill out the 'planner_id' field of the MotionPlanResponse. Setting it to the planner ID name of the MotionPlanRequest assuming that the planner plugin does warn you if it does not use the requested planner.[0m
+[moveit_demo-1] [0m[INFO] [1784805357.570088641] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805357.570171145] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805357.570389491] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805357.570473043] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805357.570602393] [moveit_82750580.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01[0m
+[moveit_demo-1] [0m[INFO] [1784805357.575584379] [moveit_82750580.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...[0m
+[moveit_demo-1] [0m[INFO] [1784805357.575831209] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805357.575908029] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805357.576482527] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to scaled_joint_trajectory_controller[0m
+[moveit_demo-1] [0m[INFO] [1784805357.578075150] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: scaled_joint_trajectory_controller started execution[0m
+[moveit_demo-1] [0m[INFO] [1784805357.578121141] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted![0m
+[moveit_demo-1] [0m[INFO] [1784805358.232368501] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'scaled_joint_trajectory_controller' successfully finished[0m
+[moveit_demo-1] [0m[INFO] [1784805358.239064463] [moveit_82750580.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...[0m
+[moveit_demo-1] [0m[INFO] [1784805358.239895071] [moveit_demo]: Motion executed successfully.[0m
+[moveit_demo-1] [0m[INFO] [1784805358.253882904] [moveit_demo]: Attached object to tool0[0m
+[moveit_demo-1] [33m[WARN] [1784805358.254094092] [moveit_demo]: Parameter 'ur_manipulator.plan_request_params.planner_id' not found in config use default value instead, check parameter type and namespace in YAML file[0m
+[moveit_demo-1] [33m[WARN] [1784805358.254134863] [moveit_demo]: Parameter 'ur_manipulator.plan_request_params.planning_pipeline' not found in config use default value instead, check parameter type and namespace in YAML file[0m
+[moveit_demo-1] [33m[WARN] [1784805358.254142201] [moveit_demo]: Parameter 'ur_manipulator.plan_request_params.planning_time' not found in config use default value instead, check parameter type and namespace in YAML file[0m
+[moveit_demo-1] [33m[WARN] [1784805358.254152654] [moveit_demo]: Parameter 'ur_manipulator.plan_request_params.planning_attempts' not found in config use default value instead, check parameter type and namespace in YAML file[0m
+[moveit_demo-1] [33m[WARN] [1784805358.254158080] [moveit_demo]: Parameter 'ur_manipulator.plan_request_params.max_velocity_scaling_factor' not found in config use default value instead, check parameter type and namespace in YAML file[0m
+[moveit_demo-1] [33m[WARN] [1784805358.254166255] [moveit_demo]: Parameter 'ur_manipulator.plan_request_params.max_acceleration_scaling_factor' not found in config use default value instead, check parameter type and namespace in YAML file[0m
+[moveit_demo-1] [0m[INFO] [1784805358.254301006] [moveit_demo]: Calling PlanningRequestAdapter 'ResolveConstraintFrames'[0m
+[moveit_demo-1] [0m[INFO] [1784805358.254380756] [moveit_demo]: Calling PlanningRequestAdapter 'ValidateWorkspaceBounds'[0m
+[moveit_demo-1] [33m[WARN] [1784805358.254403267] [moveit_82750580.moveit.ros.validate_workspace_bounds]: It looks like the planning volume was not specified. Using default values.[0m
+[moveit_demo-1] [0m[INFO] [1784805358.254425649] [moveit_demo]: Calling PlanningRequestAdapter 'CheckStartStateBounds'[0m
+[moveit_demo-1] [0m[INFO] [1784805358.254489742] [moveit_demo]: Calling PlanningRequestAdapter 'CheckStartStateCollision'[0m
+[moveit_demo-1] [0m[INFO] [1784805358.254998617] [moveit_82750580.moveit.planners.ompl.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.[0m
+[moveit_demo-1] [0m[INFO] [1784805358.255112220] [moveit_demo]: Calling Planner 'OMPL'[0m
+[moveit_demo-1] [0m[INFO] [1784805358.286071989] [moveit_demo]: Calling PlanningResponseAdapter 'AddTimeOptimalParameterization'[0m
+[moveit_demo-1] [0m[INFO] [1784805358.286625311] [moveit_demo]: Calling PlanningResponseAdapter 'ValidateSolution'[0m
+[moveit_demo-1] [0m[INFO] [1784805358.286955129] [moveit_demo]: Calling PlanningResponseAdapter 'DisplayMotionPath'[0m
+[moveit_demo-1] [33m[WARN] [1784805358.287087328] [moveit_82750580.moveit.ros.planning_pipeline]: The planner plugin did not fill out the 'planner_id' field of the MotionPlanResponse. Setting it to the planner ID name of the MotionPlanRequest assuming that the planner plugin does warn you if it does not use the requested planner.[0m
+[moveit_demo-1] [0m[INFO] [1784805358.287330007] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805358.287601070] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805358.287670022] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805358.287975154] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805358.288065257] [moveit_82750580.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01[0m
+[moveit_demo-1] [0m[INFO] [1784805358.293903903] [moveit_82750580.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...[0m
+[moveit_demo-1] [0m[INFO] [1784805358.294080270] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805358.294193668] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805358.294639198] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to scaled_joint_trajectory_controller[0m
+[moveit_demo-1] [0m[INFO] [1784805358.300873565] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: scaled_joint_trajectory_controller started execution[0m
+[moveit_demo-1] [0m[INFO] [1784805358.300933763] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted![0m
+[moveit_demo-1] [0m[INFO] [1784805359.152868109] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'scaled_joint_trajectory_controller' successfully finished[0m
+[moveit_demo-1] [0m[INFO] [1784805359.163315324] [moveit_82750580.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...[0m
+[moveit_demo-1] [0m[INFO] [1784805359.164355824] [moveit_demo]: Motion executed successfully.[0m
+[moveit_demo-1] [33m[WARN] [1784805359.165192648] [moveit_demo]: Parameter 'ur_manipulator.plan_request_params.planner_id' not found in config use default value instead, check parameter type and namespace in YAML file[0m
+[moveit_demo-1] [33m[WARN] [1784805359.165320711] [moveit_demo]: Parameter 'ur_manipulator.plan_request_params.planning_pipeline' not found in config use default value instead, check parameter type and namespace in YAML file[0m
+[moveit_demo-1] [33m[WARN] [1784805359.165343787] [moveit_demo]: Parameter 'ur_manipulator.plan_request_params.planning_time' not found in config use default value instead, check parameter type and namespace in YAML file[0m
+[moveit_demo-1] [33m[WARN] [1784805359.165354425] [moveit_demo]: Parameter 'ur_manipulator.plan_request_params.planning_attempts' not found in config use default value instead, check parameter type and namespace in YAML file[0m
+[moveit_demo-1] [33m[WARN] [1784805359.165363373] [moveit_demo]: Parameter 'ur_manipulator.plan_request_params.max_velocity_scaling_factor' not found in config use default value instead, check parameter type and namespace in YAML file[0m
+[moveit_demo-1] [33m[WARN] [1784805359.165373420] [moveit_demo]: Parameter 'ur_manipulator.plan_request_params.max_acceleration_scaling_factor' not found in config use default value instead, check parameter type and namespace in YAML file[0m
+[moveit_demo-1] [0m[INFO] [1784805359.165853992] [moveit_demo]: Calling PlanningRequestAdapter 'ResolveConstraintFrames'[0m
+[moveit_demo-1] [0m[INFO] [1784805359.166098752] [moveit_demo]: Calling PlanningRequestAdapter 'ValidateWorkspaceBounds'[0m
+[moveit_demo-1] [33m[WARN] [1784805359.166125900] [moveit_82750580.moveit.ros.validate_workspace_bounds]: It looks like the planning volume was not specified. Using default values.[0m
+[moveit_demo-1] [0m[INFO] [1784805359.166177821] [moveit_demo]: Calling PlanningRequestAdapter 'CheckStartStateBounds'[0m
+[moveit_demo-1] [0m[INFO] [1784805359.166285930] [moveit_demo]: Calling PlanningRequestAdapter 'CheckStartStateCollision'[0m
+[moveit_demo-1] [0m[INFO] [1784805359.167500023] [moveit_82750580.moveit.planners.ompl.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.[0m
+[moveit_demo-1] [0m[INFO] [1784805359.167714999] [moveit_demo]: Calling Planner 'OMPL'[0m
+[moveit_demo-1] [0m[INFO] [1784805359.187098302] [moveit_demo]: Calling PlanningResponseAdapter 'AddTimeOptimalParameterization'[0m
+[moveit_demo-1] [0m[INFO] [1784805359.189051340] [moveit_demo]: Calling PlanningResponseAdapter 'ValidateSolution'[0m
+[moveit_demo-1] [0m[INFO] [1784805359.190270053] [moveit_demo]: Calling PlanningResponseAdapter 'DisplayMotionPath'[0m
+[moveit_demo-1] [33m[WARN] [1784805359.190471320] [moveit_82750580.moveit.ros.planning_pipeline]: The planner plugin did not fill out the 'planner_id' field of the MotionPlanResponse. Setting it to the planner ID name of the MotionPlanRequest assuming that the planner plugin does warn you if it does not use the requested planner.[0m
+[moveit_demo-1] [0m[INFO] [1784805359.190693261] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805359.190742842] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805359.190795001] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805359.190824322] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805359.190914376] [moveit_82750580.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01[0m
+[moveit_demo-1] [0m[INFO] [1784805359.192500094] [moveit_82750580.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...[0m
+[moveit_demo-1] [0m[INFO] [1784805359.192665695] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805359.192743979] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805359.192960885] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to scaled_joint_trajectory_controller[0m
+[moveit_demo-1] [0m[INFO] [1784805359.196904417] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: scaled_joint_trajectory_controller started execution[0m
+[moveit_demo-1] [0m[INFO] [1784805359.197079190] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted![0m
+[moveit_demo-1] [0m[INFO] [1784805360.549686945] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'scaled_joint_trajectory_controller' successfully finished[0m
+[moveit_demo-1] [0m[INFO] [1784805360.562017381] [moveit_82750580.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...[0m
+[moveit_demo-1] [0m[INFO] [1784805360.564886569] [moveit_demo]: Motion executed successfully.[0m
+[moveit_demo-1] [0m[INFO] [1784805360.566162147] [moveit_demo]: Detached object[0m
+[moveit_demo-1] [33m[WARN] [1784805360.566298803] [moveit_demo]: Parameter 'ur_manipulator.plan_request_params.planner_id' not found in config use default value instead, check parameter type and namespace in YAML file[0m
+[moveit_demo-1] [33m[WARN] [1784805360.566335591] [moveit_demo]: Parameter 'ur_manipulator.plan_request_params.planning_pipeline' not found in config use default value instead, check parameter type and namespace in YAML file[0m
+[moveit_demo-1] [33m[WARN] [1784805360.566342952] [moveit_demo]: Parameter 'ur_manipulator.plan_request_params.planning_time' not found in config use default value instead, check parameter type and namespace in YAML file[0m
+[moveit_demo-1] [33m[WARN] [1784805360.566349880] [moveit_demo]: Parameter 'ur_manipulator.plan_request_params.planning_attempts' not found in config use default value instead, check parameter type and namespace in YAML file[0m
+[moveit_demo-1] [33m[WARN] [1784805360.566355940] [moveit_demo]: Parameter 'ur_manipulator.plan_request_params.max_velocity_scaling_factor' not found in config use default value instead, check parameter type and namespace in YAML file[0m
+[moveit_demo-1] [33m[WARN] [1784805360.566418713] [moveit_demo]: Parameter 'ur_manipulator.plan_request_params.max_acceleration_scaling_factor' not found in config use default value instead, check parameter type and namespace in YAML file[0m
+[moveit_demo-1] [0m[INFO] [1784805360.566682540] [moveit_demo]: Calling PlanningRequestAdapter 'ResolveConstraintFrames'[0m
+[moveit_demo-1] [0m[INFO] [1784805360.566758181] [moveit_demo]: Calling PlanningRequestAdapter 'ValidateWorkspaceBounds'[0m
+[moveit_demo-1] [33m[WARN] [1784805360.566783293] [moveit_82750580.moveit.ros.validate_workspace_bounds]: It looks like the planning volume was not specified. Using default values.[0m
+[moveit_demo-1] [0m[INFO] [1784805360.566817458] [moveit_demo]: Calling PlanningRequestAdapter 'CheckStartStateBounds'[0m
+[moveit_demo-1] [0m[INFO] [1784805360.566835876] [moveit_demo]: Calling PlanningRequestAdapter 'CheckStartStateCollision'[0m
+[moveit_demo-1] [0m[INFO] [1784805360.567257451] [moveit_82750580.moveit.planners.ompl.model_based_planning_context]: Planner configuration 'ur_manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.[0m
+[moveit_demo-1] [0m[INFO] [1784805360.567375069] [moveit_demo]: Calling Planner 'OMPL'[0m
+[moveit_demo-1] [0m[INFO] [1784805360.587762596] [moveit_demo]: Calling PlanningResponseAdapter 'AddTimeOptimalParameterization'[0m
+[moveit_demo-1] [0m[INFO] [1784805360.595515908] [moveit_demo]: Calling PlanningResponseAdapter 'ValidateSolution'[0m
+[moveit_demo-1] [0m[INFO] [1784805360.597509399] [moveit_demo]: Calling PlanningResponseAdapter 'DisplayMotionPath'[0m
+[moveit_demo-1] [33m[WARN] [1784805360.597708643] [moveit_82750580.moveit.ros.planning_pipeline]: The planner plugin did not fill out the 'planner_id' field of the MotionPlanResponse. Setting it to the planner ID name of the MotionPlanRequest assuming that the planner plugin does warn you if it does not use the requested planner.[0m
+[moveit_demo-1] [0m[INFO] [1784805360.597883042] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805360.597925624] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805360.597987099] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805360.598018607] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805360.598065664] [moveit_82750580.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01[0m
+[moveit_demo-1] [0m[INFO] [1784805360.599630996] [moveit_82750580.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...[0m
+[moveit_demo-1] [0m[INFO] [1784805360.599764580] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805360.599864867] [moveit_82750580.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list[0m
+[moveit_demo-1] [0m[INFO] [1784805360.600127403] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to scaled_joint_trajectory_controller[0m
+[moveit_demo-1] [0m[INFO] [1784805360.601485976] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: scaled_joint_trajectory_controller started execution[0m
+[moveit_demo-1] [0m[INFO] [1784805360.601508782] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted![0m
+[moveit_demo-1] [0m[INFO] [1784805366.803161111] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'scaled_joint_trajectory_controller' successfully finished[0m
+[moveit_demo-1] [0m[INFO] [1784805366.807113513] [moveit_82750580.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...[0m
+[moveit_demo-1] [0m[INFO] [1784805366.808180208] [moveit_demo]: Motion executed successfully.[0m
+[moveit_demo-1] [0m[INFO] [1784805366.809034552] [moveit_demo]: MoveIt demo complete.[0m
+[moveit_demo-1] [0m[INFO] [1784805366.819293679] [moveit_82750580.moveit.ros.moveit_cpp]: Deleting MoveItCpp[0m
+[ERROR] [moveit_demo-1]: process has died [pid 10079, exit code -11, cmd '/home/thamz/ros2_ws/install/moveit_demo/lib/moveit_demo/moveit_demo --ros-args -r __node:=moveit_demo --params-file /tmp/launch_params_dz90oapq'].

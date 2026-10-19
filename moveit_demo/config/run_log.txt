@@ -1,0 +1,106 @@
+[Preprocessing] Loaded 24 images.
+[Calibration] RMS reprojection error: 1.7312 px
+[Calibration] native resolution: (4080, 3072)
+[Calibration] K =
+[[3.02619504e+03 0.00000000e+00 2.03472233e+03]
+ [0.00000000e+00 3.02742197e+03 1.47139795e+03]
+ [0.00000000e+00 0.00000000e+00 1.00000000e+00]]
+[Calibration] dist = [ 6.25781383e-02 -2.43718686e-01 -1.56633632e-03 -3.76392849e-05
+  4.17833989e-01]
+[Pair 0] 20260719_210738.jpg <-> 20260719_210757.jpg
+  -> 540 good matches (Lowe's ratio test)
+  -> RANSAC inlier ratio: 0.90
+  -> triangulated 486 points (global frame)
+[Pair 1] 20260719_210757.jpg <-> 20260719_210812.jpg
+  -> 428 good matches (Lowe's ratio test)
+  -> RANSAC inlier ratio: 0.92
+  -> triangulated 393 points (global frame)
+[Pair 2] 20260719_210812.jpg <-> 20260719_210825.jpg
+  -> 281 good matches (Lowe's ratio test)
+  -> RANSAC inlier ratio: 0.82
+  -> triangulated 157 points (global frame)
+[Pair 3] 20260719_210825.jpg <-> 20260719_210834.jpg
+  -> 315 good matches (Lowe's ratio test)
+  -> RANSAC inlier ratio: 0.88
+  -> triangulated 173 points (global frame)
+[Pair 4] 20260719_210834.jpg <-> 20260719_210845.jpg
+  -> 239 good matches (Lowe's ratio test)
+  -> RANSAC inlier ratio: 0.83
+  -> triangulated 198 points (global frame)
+[Pair 5] 20260719_210845.jpg <-> 20260719_210855.jpg
+  -> 124 good matches (Lowe's ratio test)
+  -> RANSAC inlier ratio: 0.93
+  -> triangulated 52 points (global frame)
+[Pair 6] 20260719_210855.jpg <-> 20260719_210907.jpg
+  -> 508 good matches (Lowe's ratio test)
+  -> RANSAC inlier ratio: 0.95
+  -> triangulated 481 points (global frame)
+[Pair 7] 20260719_210907.jpg <-> 20260719_210919.jpg
+  -> 534 good matches (Lowe's ratio test)
+  -> RANSAC inlier ratio: 0.91
+  -> triangulated 485 points (global frame)
+[Pair 8] 20260719_210919.jpg <-> 20260719_210928.jpg
+  -> 1251 good matches (Lowe's ratio test)
+  -> RANSAC inlier ratio: 0.91
+  -> triangulated 1135 points (global frame)
+[Pair 9] 20260719_210928.jpg <-> 20260719_210941.jpg
+  -> 1471 good matches (Lowe's ratio test)
+  -> RANSAC inlier ratio: 0.90
+  -> triangulated 1319 points (global frame)
+[Pair 10] 20260719_210941.jpg <-> 20260719_210948.jpg
+  -> 1595 good matches (Lowe's ratio test)
+  -> RANSAC inlier ratio: 0.91
+  -> triangulated 1434 points (global frame)
+[Pair 11] 20260719_210948.jpg <-> 20260719_211004.jpg
+  -> 1321 good matches (Lowe's ratio test)
+  -> RANSAC inlier ratio: 0.87
+  -> triangulated 1144 points (global frame)
+  -> warning: 20260719_211004.jpg and 20260719_211327.jpg have different native resolutions ((2448, 3264) vs (3060, 4080)); using 20260719_211004.jpg's resolution to scale K.
+[Pair 12] 20260719_211004.jpg <-> 20260719_211327.jpg
+  -> 909 good matches (Lowe's ratio test)
+  -> RANSAC inlier ratio: 0.79
+  -> triangulated 712 points (global frame)
+[Pair 13] 20260719_211327.jpg <-> 20260719_211333.jpg
+  -> 1216 good matches (Lowe's ratio test)
+  -> RANSAC inlier ratio: 0.90
+  -> triangulated 1081 points (global frame)
+[Pair 14] 20260719_211333.jpg <-> 20260719_211347.jpg
+  -> 927 good matches (Lowe's ratio test)
+  -> RANSAC inlier ratio: 0.85
+  -> triangulated 791 points (global frame)
+[Pair 15] 20260719_211347.jpg <-> 20260719_211358.jpg
+  -> 488 good matches (Lowe's ratio test)
+  -> RANSAC inlier ratio: 0.84
+  -> triangulated 186 points (global frame)
+[Pair 16] 20260719_211358.jpg <-> 20260719_211406.jpg
+  -> 64 good matches (Lowe's ratio test)
+  -> RANSAC inlier ratio: 0.34
+  -> triangulated 20 points (global frame)
+[Pair 17] 20260719_211406.jpg <-> 20260719_211427.jpg
+  -> 54 good matches (Lowe's ratio test)
+  -> RANSAC inlier ratio: 0.56
+  -> triangulated 24 points (global frame)
+[Pair 18] 20260719_211427.jpg <-> 20260719_211442.jpg
+  -> 38 good matches (Lowe's ratio test)
+  -> RANSAC inlier ratio: 0.63
+  -> triangulated 14 points (global frame)
+[Pair 19] 20260719_211442.jpg <-> 20260719_211506.jpg
+  -> 41 good matches (Lowe's ratio test)
+  -> RANSAC inlier ratio: 0.41
+  -> only 6 points survive pose mask, skipping pair
+[Pair 20] 20260719_211506.jpg <-> 20260719_211517.jpg
+  -> 359 good matches (Lowe's ratio test)
+  -> RANSAC inlier ratio: 0.89
+  -> triangulated 201 points (global frame)
+[Pair 21] 20260719_211517.jpg <-> 20260719_211532.jpg
+  -> 577 good matches (Lowe's ratio test)
+  -> RANSAC inlier ratio: 0.91
+  -> triangulated 524 points (global frame)
+[Pair 22] 20260719_211532.jpg <-> image-1784491575333.jpg
+  -> 437 good matches (Lowe's ratio test)
+  -> RANSAC inlier ratio: 0.86
+  -> triangulated 367 points (global frame)
+[Filtering] Outlier removal: 11377 -> 10931 points
+[Grasp] Auto-estimated DBSCAN eps: 0.1292
+[Grasp] Largest cluster: 1119/10931 points
+[Output] Saved figure: ../moveit_demo/config/reconstruction.png
