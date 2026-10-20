@@ -2,6 +2,8 @@
 
 A Python/OpenCV Structure-from-Motion (SfM) pipeline that reconstructs a sparse 3D point cloud from phone images, filters noise, segments the target object, and integrates it into a MoveItPy planning scene for collision-aware robotic manipulation.
 
+I included this project as it covers similar areas of 3D perception and spatial AI relevant to the Humanoid challenge.
+
 **Technologies:** Python, OpenCV, SIFT, FLANN, RANSAC, triangulation, DBSCAN, ROS 2, MoveItPy.
 
 ## Results
